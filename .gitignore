@@ -1,0 +1,8 @@
+node_modules
+dist
+.env
+.env.local
+.vercel
+# daftar tamu bersifat pribadi
+guests.txt
+links.csv

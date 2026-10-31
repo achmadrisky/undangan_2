@@ -1,0 +1,80 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Fraunces', ui-serif, serif;
+  --font-sans: 'Outfit', ui-sans-serif, system-ui, sans-serif;
+
+  --color-canvas: #f6f3ec;
+  --color-surface: #fcfaf6;
+  --color-ink: #211f1c;
+  --color-muted: #6b665d;
+  --color-line: #ddd7ca;
+  --color-accent: #56664a;
+  --color-accent-soft: #e3e8da;
+  --color-accent-ink: #f6f3ec;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-weight: 300;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: var(--color-accent-soft);
+}
+
+/* Bentuk pil di judul bernapas pelan (transform saja) */
+@keyframes breathe {
+  0%,
+  100% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(1.08);
+  }
+}
+.animate-breathe {
+  animation: breathe 6s ease-in-out infinite;
+  transform-origin: left center;
+}
+
+/* Kerangka pemuat: kilau bergeser dengan transform */
+@keyframes shimmer {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+.skeleton {
+  position: relative;
+  overflow: hidden;
+  background: var(--color-accent-soft);
+}
+.skeleton::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(252, 250, 246, 0.7), transparent);
+  animation: shimmer 1.6s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
