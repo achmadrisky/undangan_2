@@ -17,7 +17,7 @@ export const invitation = {
       fullName: "Nur Fikriyah Ningsi, S.E.",
       role: "Putri kedua dari 3 bersaudara",
       parents: "Putra dari Bapak H. Kasran Samasae dan Ibu Hj. Sulastri Thaib",
-      photo: "/public/photos/pp1.jpeg",
+      photo: "/photos/pp1.jpeg",
     },
     groom: {
       nickname: "Wildan",
@@ -25,7 +25,7 @@ export const invitation = {
       role: "Putra pertama dari 6 bersaudara",
       parents:
         "Putra dari Bapak Ery Somantri, S.Pd., M.M. dan Ibu Ai Rahmatillah, S.Pd.",
-      photo: "/public/photos/pp2.jpeg",
+      photo: "/photos/pp2.jpeg",
     },
   },
 
@@ -51,27 +51,27 @@ export const invitation = {
   // Foto sementara dari picsum.photos. Nanti ganti dengan foto asli di public/photos,
   // contoh: '/photos/hero.webp'
   photos: {
-    hero: "/public/photos/pt0.jpeg",
-    inline: "/public/photos/pt7.jpeg",
+    hero: "/photos/pt0.jpeg",
+    inline: "/photos/pt7.jpeg",
     gallery: [
       {
-        src: "/public/photos/pt2.jpeg",
+        src: "/photos/pt2.jpeg",
         alt: "Foto prewedding 1",
       },
       {
-        src: "/public/photos/pt1.jpeg",
+        src: "/photos/pt1.jpeg",
         alt: "Foto prewedding 2",
       },
       {
-        src: "/public/photos/pt5.jpeg",
+        src: "/photos/pt5.jpeg",
         alt: "Foto prewedding 3",
       },
       {
-        src: "/public/photos/pt6.jpeg",
+        src: "/photos/pt6.jpeg",
         alt: "Foto prewedding 4",
       },
       {
-        src: "/public/photos/pt8.jpeg",
+        src: "/photos/pt8.jpeg",
         alt: "Foto prewedding 5",
       },
     ],
