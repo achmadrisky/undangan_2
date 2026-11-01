@@ -17,7 +17,7 @@ export const invitation = {
       fullName: "Nur Fikriyah Ningsi, S.E.",
       role: "Putri kedua dari 3 bersaudara",
       parents: "Putra dari Bapak H. Kasran Samasae dan Ibu Hj. Sulastri Thaib",
-      photo: "/photos/pp1.jpeg",
+      photo: "/photos/pp12.jpeg",
     },
     groom: {
       nickname: "Wildan",
@@ -25,7 +25,7 @@ export const invitation = {
       role: "Putra pertama dari 6 bersaudara",
       parents:
         "Putra dari Bapak Ery Somantri, S.Pd., M.M. dan Ibu Ai Rahmatillah, S.Pd.",
-      photo: "/photos/pp2.jpeg",
+      photo: "/photos/pp13.jpeg",
     },
   },
 
@@ -72,6 +72,26 @@ export const invitation = {
       },
       {
         src: "/photos/pt8.jpeg",
+        alt: "Foto prewedding 5",
+      },
+      {
+        src: "/photos/pt10.jpeg",
+        alt: "Foto prewedding 5",
+      },
+      {
+        src: "/photos/pt11.jpeg",
+        alt: "Foto prewedding 5",
+      },
+      {
+        src: "/photos/pt13.jpeg",
+        alt: "Foto prewedding 5",
+      },
+      {
+        src: "/photos/pt14.jpeg",
+        alt: "Foto prewedding 5",
+      },
+      {
+        src: "/photos/pt15.jpeg",
         alt: "Foto prewedding 5",
       },
     ],
