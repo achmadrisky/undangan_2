@@ -75,7 +75,7 @@ export const invitation = {
         alt: "Foto prewedding 5",
       },
       {
-        src: "/photos/pt10.jpeg",
+        src: "/photos/pt13.jpeg",
         alt: "Foto prewedding 5",
       },
       {
@@ -83,7 +83,7 @@ export const invitation = {
         alt: "Foto prewedding 5",
       },
       {
-        src: "/photos/pt13.jpeg",
+        src: "/photos/pt10.jpeg",
         alt: "Foto prewedding 5",
       },
       {
