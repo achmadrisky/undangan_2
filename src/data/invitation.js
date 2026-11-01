@@ -16,7 +16,7 @@ export const invitation = {
       nickname: "Ririn",
       fullName: "Nur Fikriyah Ningsi, S.E.",
       role: "Putri kedua dari 3 bersaudara",
-      parents: "Putra dari Bapak H. Kasran Samasae dan Ibu Hj. Sulastri Thaib",
+      parents: "Putri dari Bapak H. Kasran Samasae dan Ibu Hj. Sulastri Thaib",
       photo: "/photos/pp14.jpeg",
     },
     groom: {
