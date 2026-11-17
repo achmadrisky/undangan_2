@@ -3,32 +3,18 @@ import { heading, label } from "../ui";
 import Reveal from "./Reveal";
 
 // Pola berulang per 5 foto: 1 lebar, 2 potret, 2 kotak.
-// Foto yang sebaris selalu berukuran sama, jadi tidak ada sela kosong.
 const shapes = [
-<<<<<<< HEAD
   "col-span-2 aspect-[4/3]",
   "aspect-[3/4]",
   "aspect-[3/4]",
   "aspect-square",
   "aspect-square",
-=======
-  'col-span-2 aspect-[4/3]',
-  'aspect-[3/4]',
-  'aspect-[3/4]',
-  'aspect-square',
-  'aspect-square',
->>>>>>> 0a14833855fd0cf294cf689ee293ce65e872c711
 ];
 
 function shapeFor(i, total) {
   const isLast = i === total - 1;
   const pos = i % 5;
-  // Foto terakhir yang akan sendirian di barisnya dibuat selebar penuh
-<<<<<<< HEAD
   if (isLast && (pos === 1 || pos === 3)) return "col-span-2 aspect-[4/3]";
-=======
-  if (isLast && (pos === 1 || pos === 3)) return 'col-span-2 aspect-[4/3]';
->>>>>>> 0a14833855fd0cf294cf689ee293ce65e872c711
   return shapes[pos];
 }
 
